@@ -91,7 +91,7 @@ body {background: linear-gradient(to bottom, white, lightgrey);}
     }
     .textblock {
         text-align: center;
-        padding: 20;
+        padding: 20px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         height: auto;
     }
@@ -117,7 +117,7 @@ body {background: linear-gradient(to bottom, white, lightgrey);}
         color: black;
         margin-top: 10px;
         border: none;
-        padding: 3px;
+        padding: 10px 20px;
         border-radius: 4px;
         transition: background-color, color 0.3s ease-in-out; 
           
@@ -257,14 +257,12 @@ body {background: linear-gradient(to bottom, white, lightgrey);}
       
     }
 
-
-
-
-
-
-
-
-
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+}
     
     .textblock button:hover{
         background-color: blue;
@@ -437,9 +435,9 @@ body {background: linear-gradient(to bottom, white, lightgrey);}
             list-style: none;
         }
         .row{
-            display: flex;         
-                       
-        }
+            display: flex;
+            flex-wrap: wrap;        
+           }
 
 
         .footer{
@@ -534,6 +532,18 @@ body {background: linear-gradient(to bottom, white, lightgrey);}
             .social-icons {
                 text-align: center;
             }
+
+            @media (max-width: 768px) {
+            .container {
+            padding: 10px;
+                       }
+        }
+        @media (max-width: 768px) {
+            .nav-links {
+            width: 100%;
+                       }
+        }
+
 
 
 
