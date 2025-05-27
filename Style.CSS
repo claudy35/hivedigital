@@ -138,9 +138,9 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
         background-color: orange;
         text-decoration: none;
         color: black;
-        margin-top: 10px;
+        margin: 10px;
         border: 1px solid black;
-        padding: 10px 20px;
+        padding: 3px;
         border-radius: 4px;
         transition: background-color, color 0.3s ease-in-out; 
           
@@ -515,13 +515,7 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
             border-radius: 20px;
             margin: 10px;
         }
-        .special-heading {background-color: orange;
-            color: blue;
-            border-radius: 20px;
-            padding: 15px;
-            margin-bottom: 15px;
-
-        }
+       
         .spacious-list li{
             line-height: 1.4;
         }
@@ -532,6 +526,50 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
           line-height: 1.4;
         }
 
+        .spacious-list3 li{
+            line-height: 1.4;
+        }
+        .spacious-list4 li{
+          line-height: 1.4;
+        }
+        .spacious-list5 li{
+          line-height: 1.4;
+        }
+        .spacious-list6 li{
+            line-height: 1.4;
+        }
+        .spacious-list7 li{
+          line-height: 1.4;
+        }
+        .spacious-list8 li{
+          line-height: 1.4;
+        }
+        .spacious-list9 li{
+            line-height: 1.4;
+        }
+        .spacious-list10 li{
+          line-height: 1.4;
+        }
+        .spacious-list11 li{
+          line-height: 1.4;
+        }
+        .spacious-list12 li{
+            line-height: 1.4;
+        }
+        .spacious-list13 li{
+          line-height: 1.4;
+        }
+        .spacious-list14 li{
+          line-height: 1.4;}
+
+
+           .special-heading {background-color: orange;
+            color: blue;
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
+
+        }
         
         .special-heading1 {background-color:blue;
             color: orange;
@@ -540,9 +578,7 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
             margin-bottom: 15px;
 
         }
-        
-
-        
+                
         .special-heading2 {background-color: orange;
             color: blue;
             border-radius: 20px;
@@ -551,6 +587,101 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
 
         }
 
+        .special-heading7 {background-color: orange;
+            color: blue;
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
+
+        }
+        
+        .special-heading8 {background-color:blue;
+            color: orange;
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
+
+        }
+                
+        .special-heading9 {background-color: orange;
+            color: blue;
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
+
+        }
+
+         .special-heading10 {background-color: orange;
+            color: blue;
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
+
+        }
+        
+        .special-heading11 {background-color:blue;
+            color: orange;
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
+
+        }
+                
+        .special-heading12 {background-color: orange;
+            color: blue;
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
+
+        }
+
+        .special-heading13 {background-color: orange;
+            color: blue;
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
+
+        }
+        
+        .special-heading14 {background-color:blue;
+            color: orange;
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
+
+        }
+                
+        .special-heading15 {background-color: orange;
+            color: blue;
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
+
+        }
+
+        .special-heading16 {background-color: orange;
+            color: blue;
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
+
+        }
+        
+        .special-heading17 {background-color:blue;
+            color: orange;
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
+
+        }
+                
+        .special-heading18 {background-color: orange;
+            color: blue;
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
+
+        }
         .special-heading4 {
           padding: 10px;
         }
@@ -560,9 +691,33 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
         .special-heading6{
           padding: 10px;
         }
-
-
-
+        .special-heading21 {
+          padding: 10px;
+        }
+        .special-heading22 {
+          padding: 10px;
+        }
+        .special-heading23{
+          padding: 10px;
+        }
+        .special-heading24 {
+          padding: 10px;
+        }
+        .special-heading25 {
+          padding: 10px;
+        }
+        .special-heading26{
+          padding: 10px;
+        }
+        .special-heading27 {
+          padding: 10px;
+        }
+        .special-heading28 {
+          padding: 10px;
+        }
+        .special-heading29{
+          padding: 10px;
+        }
 
         .grid-container1 .grid-item2{
             background-color: transparent;
@@ -589,99 +744,134 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
 
 
            .grid-container2 .grid-item1{
-            background-color: orange;
+            background-color: transparent;
             text-align: center;
             padding: 20px;
-            color: blue;
-            border-left: 1px solid #133;
-            border-top: 1px solid #133;
+            color:black;
+            border-radius: 20px;
+            margin: 10px;
+            border: none;
+           
         }
+        
+
+
+
+
+
         .grid-container2 .grid-item2{
-            background-color: blue;
+            background-color: transparent;
             text-align: center;
             padding: 20px;
-            color:orange;
+            color:black;
+            border-radius: 20px;
+            margin: 10px;
+            border: none;
         }
+
         .grid-container2 .grid-item3{
-            background-color: orange;
+            background-color: transparent;
             text-align: center;
             padding: 20px;
-            color: blue;
-            border-left: 1px solid #133;
-            border-top: 1px solid #133;
+            color:black;
+            border-radius: 20px;
+            margin: 10px;
+            border: none;
         }        
         
 
            .grid-container3 .grid-item1{
-            background-color: orange;
+            background-color: transparent;
             text-align: center;
             padding: 20px;
-            color: blue;
-            border-left: 1px solid #133;
-            border-top: 1px solid #133;
+            color:black;
+            border-radius: 20px;
+            margin: 10px;
+            border: none;
         }
+
+
+
         .grid-container3 .grid-item2{
-            background-color: blue;
+            background-color: transparent;
             text-align: center;
             padding: 20px;
-            color:orange;
+            color:black;
+            border-radius: 20px;
+            margin: 10px;
+            border: none;
         }
+
+
+
         .grid-container3 .grid-item3{
-            background-color: orange;
+            background-color: transparent;
             text-align: center;
             padding: 20px;
-            color: blue;
-            border-left: 1px solid #133;
-            border-top: 1px solid #133;
+            color:black;
+            border-radius: 20px;
+            margin: 10px;
+            border: none;
         }        
         
         
 
            .grid-container4 .grid-item1{
-            background-color: orange;
+            background-color: transparent;
             text-align: center;
             padding: 20px;
-            color: blue;
-            border-left: 1px solid #133;
-            border-top: 1px solid #133;
+            color:black;
+            border-radius: 20px;
+            margin: 10px;
+            border: none;
+
         }
         .grid-container4 .grid-item2{
-            background-color: blue;
+            background-color: transparent;
             text-align: center;
             padding: 20px;
-            color:orange;
+            color:black;
+            border-radius: 20px;
+            margin: 10px;
+            border: none;
         }
         .grid-container4 .grid-item3{
-            background-color: orange;
+            background-color: transparent;
             text-align: center;
             padding: 20px;
-            color: blue;
-            border-left: 1px solid #133;
-            border-top: 1px solid #133;
+            color:black;
+            border-radius: 20px;
+            margin: 10px;
+            border: none;
         }        
         
        
         .grid-container5 .grid-item1{
-            background-color: orange;
+            background-color: transparent;
             text-align: center;
             padding: 20px;
-            color: blue;
-            border-left: 1px solid #133;
-            border-top: 1px solid #133;
+            color:black;
+            border-radius: 20px;
+            margin: 10px;
+            border: none;
         }
         .grid-container5 .grid-item2{
-            background-color: blue;
+            background-color: transparent;
             text-align: center;
             padding: 20px;
-            color:orange;
+            color:black;
+            border-radius: 20px;
+            margin: 10px;
+            border: none;
         }
         .grid-container5 .grid-item3{
-            background-color: orange;
+            background-color: transparent;
             text-align: center;
             padding: 20px;
-            color: blue;
-            border-left: 1px solid #133;
-            border-top: 1px solid #133;
+            color:black;
+            border-radius: 20px;
+            margin: 10px;
+            border: none;
         }        
         
        
