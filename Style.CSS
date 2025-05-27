@@ -92,7 +92,6 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
         padding: 20px;
         
     }
-
         .image-block img {
         width: 100%;
         max-width: 500px;
@@ -109,9 +108,24 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
         text-align:center;
         color: blue;
     }
+    .content1 h2{
+      font-size: 30px;
+      color: orange;
+      text-align: center;
+    }
+
+
+
+
+
+
+
+
+
     .textblock h2{
         font-size: 30px;
         color: orange;
+        line-height: 1.6;
     }
     .textblock p{
         word-spacing: 2px;
@@ -125,7 +139,7 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
         text-decoration: none;
         color: black;
         margin-top: 10px;
-        border: none;
+        border: 1px solid black;
         padding: 10px 20px;
         border-radius: 4px;
         transition: background-color, color 0.3s ease-in-out; 
@@ -313,7 +327,7 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
         text-decoration: none;
         color: black;
         margin-top: 10px;
-        border: none;
+        border: 1px solid black;
         padding: 3px;
         border-radius: 4px;
         transition: background-color, color 0.3s ease-in-out;
@@ -336,7 +350,7 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
         text-decoration: none;
         color: black;
         margin-top: 10px;
-        border: none;
+        border: 1px solid black;
         padding: 3px;
         border-radius: 4px;
         transition: background-color, color 0.3s ease-in-out;
@@ -357,7 +371,7 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
         text-decoration: none;
         color: black;
         margin-top: 10px;
-        border: none;
+        border: 1px solid black;
         padding: 3px;
         border-radius: 4px;
         transition: background-color, color 0.3s ease-in-out;
@@ -497,35 +511,57 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
             text-align: center;
             padding: 20px;
             color: black;
-            border: 1px solid #133;            
+            border: none;            
             border-radius: 20px;
             margin: 10px;
         }
         .special-heading {background-color: orange;
             color: blue;
             border-radius: 20px;
-            padding: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
 
         }
-        .spacious list li{
-            line-height: 2;
+        .spacious-list li{
+            line-height: 1.4;
+        }
+        .spacious-list1 li{
+          line-height: 1.4;
+        }
+        .spacious-list2 li{
+          line-height: 1.4;
         }
 
         
         .special-heading1 {background-color:blue;
             color: orange;
             border-radius: 20px;
-            padding: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
 
         }
+        
 
         
         .special-heading2 {background-color: orange;
             color: blue;
             border-radius: 20px;
-            padding: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
 
         }
+
+        .special-heading4 {
+          padding: 10px;
+        }
+        .special-heading5 {
+          padding: 10px;
+        }
+        .special-heading6{
+          padding: 10px;
+        }
+
+
 
 
         .grid-container1 .grid-item2{
@@ -535,14 +571,14 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
             color:black;
             border-radius: 20px;
             margin: 10px;
-            border: 1px solid #133;
+            border: none;
         }
         .grid-container1 .grid-item3{
             background-color: transparent;
             text-align: center;
             padding: 20px;
             color: black;
-            border: 1px solid #133;           
+            border: none;           
             border-radius: 20px;
             margin: 10px;
         }        
@@ -809,17 +845,98 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
       display: grid;
       grid-template-columns: repeat(3, 1fr); /* 3 columns */
       gap: 10px;
-      max-width: 900px;
+      max-width: 1200px;
       margin: 20px auto;
       padding: 10px;
+      
     }
-    .cell {
-      background-color: #e0f7fa;
-      border: 1px solid #00acc1;
-      padding: 20px;
+
+
+
+    .service-cell {
+      display:block;
+      flex-direction:column;
+      align-items: center;      
+      background-color: transparent;
+      border: 1px solid blue;
+      padding: 2rem;
       text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
       font-family: sans-serif;
-      font-weight: bold;}
+      font-weight: lighter;
+      border-radius: 1rem;
+      color: black;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;}
+
+
+      .service-cell:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+      border: 1px solid orange;
+      
+}
+
+      
+
+
+
+         
+    
+    
+
+   .service-icon {
+    font-size: 2.5rem;
+    color: darkgray;
+    margin-bottom: 1rem;
+    transition: none;
+  }
+
+  .service-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: blue;
+  }
+
+  .service-description {
+    font-size: 1rem;
+    color: black;
+    line-height: 1.5;
+    
+  }
+
+  .serv-btn{ word-spacing: 2px;
+        line-height: 1.6;
+        font-size: 1rem;        
+        text-decoration: none;
+        background-color: transparent;
+        color: blue;
+        margin-top: 10px;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 4px;
+        
+    
+  }
+  .serv-btn:hover{
+    background-color: orange;
+    color:black;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       @media (max-width: 768px) {
       .container-s {
