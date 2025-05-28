@@ -121,21 +121,8 @@
            <button class="prev" onclick="moveSlide(-1)">❮</button>
           <button class="next" onclick="moveSlide(1)">❯</button>
           </div>
-            
-
-
-
-
-
-
-
-
-
-
-        
-            
-            
-            
+                            
+                        
             
             <div class="content">
                 <h2>What Sets Us Apart</h2>
@@ -243,17 +230,35 @@
 
            <script>
            let currentIndex = 0;
+let autoSlideInterval;
 
-           function moveSlide(direction) {
-           const slides = document.getElementById("slides");
-           const totalSlides = slides.children.length;
+function moveSlide(direction) {
+  const slides = document.getElementById("slides");
+  const totalSlides = slides.children.length;
 
-           currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
-           slides.style.transform = `translateX(-${currentIndex * 100}%)`;
-           }
+  currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
+  slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+}
 
-            // Optional: Auto slide
-           setInterval(() => moveSlide(1), 5000); // Change every 5 seconds
+// Start auto-slide
+function startAutoSlide() {
+  autoSlideInterval = setInterval(() => moveSlide(1), 5000); // Change every 5 seconds
+}
+
+// Stop auto-slide
+function stopAutoSlide() {
+  clearInterval(autoSlideInterval);
+}
+
+// Start auto-slide initially
+startAutoSlide();
+
+// Pause on click or touch
+const slideContainer = document.getElementById("slides"); // or the wrapper div if better
+
+slideContainer.addEventListener("click", stopAutoSlide);
+slideContainer.addEventListener("touchstart", stopAutoSlide);
+
 </script>
 
 
