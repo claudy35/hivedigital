@@ -406,7 +406,7 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    background-color: blue;
+    background-color: transparent;
     border: none;
     font-family: sans-serif;
     cursor: pointer;
