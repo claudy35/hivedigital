@@ -61,7 +61,7 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
     
     .special-headingc{
       text-align: center;
-      color: blue;
+      color:orange;
       margin-top: 60px;
       margin-bottom: 10px;
       
@@ -78,10 +78,6 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
       color: orange;
       margin-top: 30px;
     }
-
-
-
-
 
   .whatsapp-button {
       display: inline-block;
@@ -107,12 +103,6 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
       color: white;
 
     }
-
-
-
-
-
-
 
 .logo{
     width: 90px;
