@@ -41,6 +41,39 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
   }}
 
 
+  .horizontal-line {
+  height: 80px;
+  width: 100%;
+  background: linear-gradient(to bottom, darkgray, white); /* gradient */
+  /*box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px; /* horizontal padding */
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+.line-left{color: blue;}
+.line-right{color: blue;}
+
+
+
+
+.service-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 6px;
+  
+}
+
+
+
+
+
 
 
 
