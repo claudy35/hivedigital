@@ -284,6 +284,7 @@ transition: color 0.3s ease-in-out;}
       color:orange;
       margin-top: 60px;
       margin-bottom: 10px;
+      align-items: center;
       
      
     }
@@ -1060,51 +1061,265 @@ transition: color 0.3s ease-in-out;}
         }
        
         .spacious-list li{
-            line-height: 1.4;
-        }
-        .spacious-list1 li{
-          line-height: 1.4;
-        }
-        .spacious-list2 li{
-          line-height: 1.4;
+             line-height: 2;
+            text-align: left;
+            list-style: none;
+            padding-left: 0;
         }
 
+          .spacious-list li::before {
+  content: "✔ "; /* Unicode tick */
+  color: green;  /* make it green */
+  font-weight: bold;
+  margin-right: 5px;}
+
+
+        .spacious-list1 li{
+          line-height: 2;
+            text-align: left;
+            list-style: none;
+            padding-left: 0;
+        
+        }
+
+        .spacious-list1 li::before {
+  content: "✔ "; /* Unicode tick */
+  color: green;  /* make it green */
+  font-weight: bold;
+  margin-right: 5px;}
+
+
+
+
+        .spacious-list2 li{
+          line-height: 2;
+            text-align: left;
+            list-style: none;
+            padding-left: 0;
+        
+        }
+
+
+        .spacious-list2 li::before {
+  content: "✔ "; /* Unicode tick */
+  color: green;  /* make it green */
+  font-weight: bold;
+  margin-right: 5px;}
+
+
+
         .spacious-list3 li{
-            line-height: 1.4;
+            line-height: 2;
+            text-align: left;
+            list-style: none;
+            padding-left: 0;
         }
+
+        .spacious-list3 li::before {
+  content: "✔ "; /* Unicode tick */
+  color: green;  /* make it green */
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+
+
+
+
         .spacious-list4 li{
-          line-height: 1.4;
+          line-height: 2;
+            text-align: left;
+            list-style: none;
+            padding-left: 0;
+        
         }
+
+        .spacious-list4 li::before {
+  content: "✔ "; /* Unicode tick */
+  color: green;  /* make it green */
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
         .spacious-list5 li{
-          line-height: 1.4;
+          line-height: 2;
+            text-align: left;
+            list-style: none;
+            padding-left: 0;
+        
         }
+
+
+          .spacious-list5 li::before {
+  content: "✔ "; /* Unicode tick */
+  color: green;  /* make it green */
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+
         .spacious-list6 li{
-            line-height: 1.4;
+            line-height: 2;
+            text-align: left;
+            list-style: none;
+            padding-left: 0;
         }
+
+        .spacious-list6 li::before {
+  content: "✔ "; /* Unicode tick */
+  color: green;  /* make it green */
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+
+
+
+
         .spacious-list7 li{
-          line-height: 1.4;
+          line-height: 2;
+            text-align: left;
+            list-style: none;
+            padding-left: 0;
         }
+
+         .spacious-list7 li::before {
+  content: "✔ "; /* Unicode tick */
+  color: green;  /* make it green */
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+
+
+
         .spacious-list8 li{
-          line-height: 1.4;
+          line-height: 2;
+            text-align: left;
+            list-style: none;
+            padding-left: 0;
         }
+
+
+         .spacious-list8 li::before {
+  content: "✔ "; /* Unicode tick */
+  color: green;  /* make it green */
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+
+
         .spacious-list9 li{
-            line-height: 1.4;
+            line-height: 2;
+            text-align: left;
+            list-style: none;
+            padding-left: 0;
             
         }
+
+
+           .spacious-list9 li::before {
+  content: "✔ "; /* Unicode tick */
+  color: green;  /* make it green */
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
         .spacious-list10 li{
-          line-height: 1.4;
+          line-height: 2;
+            text-align: left;
+            list-style: none;
+            padding-left: 0;
         }
+
+        .spacious-list10 li::before {
+  content: "✔ "; /* Unicode tick */
+  color: green;  /* make it green */
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+
+
+
         .spacious-list11 li{
-          line-height: 1.4;
+          line-height: 2;
+            text-align: left;
+            list-style: none;
+            padding-left: 0;
         }
+
+         .spacious-list11 li::before {
+  content: "✔ "; /* Unicode tick */
+  color: green;  /* make it green */
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+
+
+
         .spacious-list12 li{
-            line-height: 1.4;
+            line-height: 2;
+            text-align: left;
+            list-style: none;
+            padding-left: 0;
         }
+
+        .spacious-list12 li::before {
+  content: "✔ "; /* Unicode tick */
+  color: green;  /* make it green */
+  font-weight: bold;
+  margin-right: 5px;
+}
+
         .spacious-list13 li{
-          line-height: 1.4;
+          line-height: 2;
+            text-align: left;
+            list-style: none;
+            padding-left: 0;
         }
+
+        .spacious-list13 li::before {
+  content: "✔ "; /* Unicode tick */
+  color: green;  /* make it green */
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+
         .spacious-list14 li{
-          line-height: 1.4;}
+          line-height: 2;
+            text-align: left;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .spacious-list14 li::before {
+  content: "✔ "; /* Unicode tick */
+  color: green;  /* make it green */
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+
+
+          .fa-li i {
+  color: green;
+}
+
 
 
            .special-heading {background-color: orange;
