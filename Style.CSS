@@ -26,6 +26,101 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
   
   }
 
+
+  .containerP {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 0 auto;
+      max-width: 1200px;
+      padding: 20px;
+    }
+
+    .column {
+      flex: 1 1 45%; /* two columns side by side */
+      box-sizing: border-box;
+    }
+
+    .column h2 {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .column img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .column p {
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    /* Responsive behavior: stack on small screens */
+    @media (max-width: 768px) {
+      .column {
+        flex: 1 1 100%; /* stack full width */
+      }
+    }
+
+
+
+
+
+
+
+
+
+  .contact-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      width: 100%;
+      margin: 20 auto;
+      padding: 20px;
+      background-color: #aaa;
+      border-radius: 5px;
+    }
+
+    .contact-column {
+      flex: 1;
+      min-width: 300px;
+      margin-left: 50px;      
+      padding: 15px;
+      border-radius: 5px;
+      
+     
+    }
+
+    .map-container {
+      position: relative;
+      width: 100%;
+      height: 400px;
+    }
+    .map-container iframe {
+      border: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .contact-info h3 {
+      margin-bottom: 10px;
+    }
+
+    .contact-info p {
+      margin: 8px 0;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+
+
+
+
+
+
   .whyM {color: blue;
   text-align: center;
 margin-top: 20px;}
@@ -324,6 +419,33 @@ transition: color 0.3s ease-in-out;}
       color: white;
 
     }
+
+
+
+     .whazap-button {
+      display: inline-block;
+      /*background-color: #25D366;*/
+      /*color: white;*/
+      background-color: #aaa;
+      color: #1ebc59;
+      padding: 10px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: Arial, sans-serif;      
+      bottom: 20px;
+      right: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s;
+    }
+
+    .whazap-button:hover {
+      /*background-color: #1ebc59;*/
+      background-color: #1ebc59;
+      color: white;
+
+    }
+
 
 .logo{
     width: 90px;
