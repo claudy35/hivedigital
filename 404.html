@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <meta name="robots" content="noindex" />
+    <script>
+      (function () {
+        var loc = window.location;
+
+        // Decode so we can see real spaces etc., then normalize.
+        var originalPath = decodeURIComponent(loc.pathname);
+
+        // 1) lowercase
+        var path = originalPath.toLowerCase();
+
+        // 2) replace spaces, %20, underscores with hyphens
+        path = path.replace(/\s+/g, "-")      // spaces
+                   .replace(/%20/g, "-")      // encoded spaces (belt & suspenders)
+                   .replace(/_/g, "-");
+
+        // 3) collapse multiple hyphens
+        path = path.replace(/-+/g, "-");
+
+        // 4) strip trailing slash (except root)
+        if (path.length > 1) path = path.replace(/\/+$/, "");
+
+        var target = loc.origin + path + loc.search + loc.hash;
+
+        // Redirect only if something changed
+        if (path !== originalPath) {
+          // JS "soft 301"—best we can do on GitHub Pages
+          window.location.replace(target);
+        } else {
+          // Optional: show a helpful message or link to homepage if nothing matches
+          document.documentElement.innerHTML =
+            '<head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Not found</title></head>' +
+            '<body><h1>Page not found</h1><p><a href="/">Go to homepage</a></p></body>';
+        }
+      })();
+    </script>
+    <noscript>
+      This page has moved. Please use lowercase, hyphenated URLs. <a href="/">Home</a>
+    </noscript>
+  </head>
+  <body>Redirecting…</body>
+</html>
