@@ -26,6 +26,34 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
   
   }
 
+  /* Unvisited link */
+.article-container a:link {
+  color: blue;
+  text-decoration: none; /* optional */
+}
+
+/* Visited link */
+.article-container a:visited {
+  color: purple;
+}
+
+/* Mouse hover over link */
+.article-container a:hover {
+  color: darkblue; /* optional enhancement */
+  text-decoration: underline; /* optional */
+}
+
+/* Active link (when being clicked) */
+ .article-container a:active {
+  color: red; /* optional */
+}
+
+
+
+
+
+
+
   .article-container{
     width: 60%;           /* occupies 70% of the page */
       margin: 0 auto;       /* centers the container */
