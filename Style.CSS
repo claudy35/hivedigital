@@ -26,6 +26,86 @@ body {background: linear-gradient(to bottom, white, lightgrey); overflow-x: hidd
   
   }
 
+  .article-container{
+    width: 60%;           /* occupies 70% of the page */
+      margin: 0 auto;       /* centers the container */
+      padding: 1.5rem;      /* comfortable inner spacing */
+      box-sizing: border-box;
+  }
+  
+  .article-container h1{
+    font-size: 38px;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+
+  .article-container h2{
+    font-size: 30px;
+    line-height: 1.30;
+    font-weight: 700;
+  }
+
+  .article-container h3{
+    font-size: 24px;
+    line-height: 1.35;
+    font-weight: 600;
+    color: #444;
+    font-style: italic;
+  }
+
+  .article-container p{
+    font-size: 17px;
+    line-height: 1.75;
+  }
+
+  .ppp{
+    font-size: 17px;
+    line-height: 1.75;
+    margin-bottom: 20px;
+  }
+
+
+  @media (max-width: 768px){
+  .article-container p { font-size: 16.5px; }
+  .article-container h1 { font-size: 34px; }
+  .article-container h2 { font-size: 28px; }
+  .article-container h3 { font-size: 22px; }
+}
+
+@media (max-width: 480px){
+  .article-container p { font-size: 16px; }
+  .article-container h1 { font-size: 32px; }
+  .article-container h2 { font-size: 26px; }
+  .article-container h3 { font-size: 21px; }
+  .article-container{
+    width: 80%;           /* occupies 70% of the page */
+      margin: 0 auto;       /* centers the container */
+      padding: 1.5rem;      /* comfortable inner spacing */
+      box-sizing: border-box;
+  }
+  
+}
+
+.hero-pane {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;       /* Ensures the image doesn’t overflow */
+  position: relative;
+}
+
+.hero-pane img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* Ensures image scales and crops nicely */
+  display: block;
+}
+
+
+
+
+
+
+
 
   .containerP {
       display: flex;
@@ -353,17 +433,9 @@ transition: color 0.3s ease-in-out;}
 
 
 
-
-
-
-
-
-
-
-
     input, textarea { width: 100%; padding: 10px; margin: 10px 0; }
     button { padding: 10px 20px; 
-            background-color: orange; 
+            background-color: rgb(255, 165, 0); 
             color: black; 
             border: none; 
             margin-bottom: 20px;
